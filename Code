@@ -51,11 +51,6 @@ class _CounterPageState extends State<CounterPage> {
           ],
         ),
       ),
-     /* floatingActionButton: FloatingActionButton(
-        onPressed: _decrementCounter,
-        tooltip: 'Decrement',
-        child: Icon(Icons.remove),
-      ),*/
  floatingActionButton: Padding(
   padding: const EdgeInsets.all(8.0),
   child: Row(
