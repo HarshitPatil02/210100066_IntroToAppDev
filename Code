@@ -52,13 +52,14 @@ class _CounterPageState extends State<CounterPage> {
         ),
       ),
  floatingActionButton: Padding(
-  padding: const EdgeInsets.all(8.0),
+  padding: const EdgeInsets.only(left:825),
   child: Row(
     mainAxisAlignment: MainAxisAlignment.spaceBetween,
     children: <Widget>[
       FloatingActionButton(
         onPressed: _decrementCounter,
         tooltip: 'Decrement',
+        backgroundColor: Colors.red,
         child: Icon(Icons.remove),
       ),
     FloatingActionButton(
